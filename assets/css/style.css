@@ -1,0 +1,29 @@
+/* I made this a class because it's on three different pages, but it didn't seem to have any problems as an ID? */
+* {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav {
+
+}
+
+.navbarname {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#name {
+
+}
+
+.container {
+    
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+
+}

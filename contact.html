@@ -4,19 +4,23 @@
     <title>About Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 <!--nav bar-->
-<nav>   
+<div class="nav">
+    <!--Name heading on navbar-->
+    <h1 class="navbarname">Elena Baurkot</h1>   
+    <!--Navbar links-->
     <ul>
-        <li id="name">Elena Baurkot</li>
         <li><a href="index.html">About</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-</nav>
+</div>
 
 <!--page content-->
 <div class="container">
+    <h1>Contact</h1>
     <form action="contactform">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="John Smith">
@@ -26,9 +30,10 @@
 
         <label for="message">Message</label>
         <textarea id="text" name="message" style="height:200px"></textarea>
-
+<!--might need to link submit button to something?-->
         <input type="submit" value="Submit">
-
     </form>
-
 </div>
+
+</body>
+</html>
