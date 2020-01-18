@@ -41,10 +41,20 @@ h2 {
 
 }
 
+#profilepic {
+    width: 215px;
+    height: 260px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+
 .image {
     position: relative;
     text-align: center;
     width: 250px;
+    float: left;
+    display: block;
 }
 
 .text {
