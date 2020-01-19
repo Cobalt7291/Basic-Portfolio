@@ -18,6 +18,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
+    border-bottom: 2px solid #cccccc;
 }
 
 .nav a {
@@ -54,14 +55,17 @@ body {
 
 .content {
     margin-top: 100px;
-    background-color: white;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
 }
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-
 }
+
+/* About Me Page Elements */
 
 #profilepic {
     width: 215px;
@@ -74,23 +78,42 @@ h2 {
 /* Contact Page Elements */
 form {
     width: 100%; 
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-right: 50px;
   }
 
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: 1px solid #dddddd;
     border-radius: 4px;
     cursor: pointer;
   }
+
+  #text {
+      width: 100%;
+      border: 1px solid #dddddd;
+      padding: 6px;
+      margin-top: 4px;
+      margin-bottom: 8px;
+  }
+
+  #name {
+      width: 100%;
+      border: 1px solid #dddddd;
+      padding: 6px;
+      margin-top: 4px;
+      margin-bottom: 8px;
+  }
+
+  #email {
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
 
 
 
