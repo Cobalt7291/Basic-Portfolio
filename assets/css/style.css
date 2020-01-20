@@ -58,6 +58,17 @@ body {
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #dddddd;
+    padding-left: 30px;
+}
+
+/* Had to add this section for the portfolio because I could not figure out how to get the white background to include the images */
+.contentportfolio {
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    padding-left: 30px;
+    height: 950px;
 }
 
 h2 {
