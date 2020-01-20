@@ -1,3 +1,10 @@
+/* Can't figure out:
+1. How to make the background on my name span the width of the navbar
+2. How to adjust the lines next the the navbar items to make them smaller and to make the one next to contact go away
+3. 
+*/
+
+
 /* I made this a class because it's on three different pages, but it didn't seem to have any problems as an ID? */
 * {
     color: #777777;
@@ -17,6 +24,7 @@ body {
     right: 0;
     left: 0;
     width: 100%;
+    height: 75px;
     z-index: 1;
     border-bottom: 2px solid #cccccc;
 }
@@ -37,11 +45,11 @@ body {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 250px;
+    height: 75px;
     display: inline-block;
     text-align: center;
-    position: fixed absolute;
-    top: 0;
     z-index: 2;
+    margin: auto;
 }
 
 .navcontainer {
@@ -55,7 +63,7 @@ body {
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 110px;
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #dddddd;
@@ -64,7 +72,7 @@ body {
 
 /* Had to add this section for the portfolio because I could not figure out how to get the white background to include the images */
 .contentportfolio {
-    margin-top: 100px;
+    margin-top: 110px;
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #dddddd;
