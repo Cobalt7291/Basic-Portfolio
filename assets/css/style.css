@@ -1,6 +1,8 @@
 /* Can't figure out:
-1. How to make the background on my name span the width of the navbar
+1. How to center my name in its background in the navbar header (tried making its position relative to the navbar and tried giving it a top padding and a top margin) 
+
 2. How to adjust the lines next the the navbar items to make them smaller and to make the one next to contact go away
+
 3. 
 */
 
@@ -68,6 +70,7 @@ body {
     padding: 20px;
     border: 1px solid #dddddd;
     padding-left: 30px;
+    margin-bottom: 150px;
 }
 
 /* Had to add this section for the portfolio because I could not figure out how to get the white background to include the images */
@@ -78,7 +81,7 @@ body {
     border: 1px solid #dddddd;
     padding-left: 30px;
     height: 950px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 h2 {
