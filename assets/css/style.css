@@ -78,6 +78,14 @@ h2 {
     color: #4aaaa5;
 }
 
+hr {
+    height: 3px;
+    color: #cccccc;
+    background: #cccccc;
+    background-color: #cccccc;
+    border: none;
+}
+
 footer {
     background-color: #666666;
     position: fixed;
@@ -115,8 +123,7 @@ footer {
 /* Contact Page Elements */
 form {
     width: 95%; 
-    margin-bottom: 16px; /* Bottom margin */
-    padding-left: 8px; 
+    margin-bottom: 16px;
   }
 
   input[type=submit] {
