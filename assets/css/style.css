@@ -22,13 +22,14 @@ body {
 }
 
 .nav a {
-    color: #777777;
+    color: #cccccc;
     float: right;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: thin solid #cccccc;
+    border-right: thin solid #dddddd;
+    margin-top: 10px;
 }
 
 .navbarname {
@@ -69,11 +70,36 @@ body {
     border: 1px solid #dddddd;
     padding-left: 30px;
     height: 950px;
+    margin-bottom: 100px;
 }
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+}
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    z-index: 1;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#copyright {
+    color: white;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 47%;
+    right: 47%;
+    /* for some reason right: auto; and left: auto; wouldn't work here */
 }
 
 /* About Me Page Elements */
@@ -96,10 +122,12 @@ form {
   input[type=submit] {
     background-color: #4aaaa5;
     color: white;
-    padding: 12px 20px;
+    padding: auto;
     border: 1px solid #dddddd;
-    border-radius: 4px;
     cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
     }
 
   #text {
